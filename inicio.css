@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(60deg,rgb(149, 214, 239), rgb(194, 254, 219), rgb(255, 250, 203));
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* TITULO */
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* TARJETAS */
+.card{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* SUBTITULOS */
+h2{
+    color: #0077b6;
+}
+
+/* TEXTO */
+p{
+    font-size: 18px;
+}
+
+/* LISTA */
+ul{
+    padding-left: 20px;
+}
+
+li{
+    font-size: 17px;
+    margin: 5px 0;
+}
+
+/* GALERIA */
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* IMAGENES */
+.img-box{
+    text-align: center;
+}
+
+.img-box img{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.img-box img:hover{
+    transform: scale(1.05);
+}
+
+.img-box p{
+    margin-top: 10px;
+    font-size: 16px;
+}ç
+.card h3{
+    margin-top: 15px;
+    color: #023e8a;
+}
+
+.img-materiales{
+    width: 250px;       /* tamaño */
+    height: 250px;      /* cuadrada */
+    object-fit: cover;  /* recorta sin deformar */
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
